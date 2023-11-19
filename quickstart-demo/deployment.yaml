@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx
 spec:
-  replicas: 50
+  replicas: 8
   selector:
     matchLabels:
       run: nginx
